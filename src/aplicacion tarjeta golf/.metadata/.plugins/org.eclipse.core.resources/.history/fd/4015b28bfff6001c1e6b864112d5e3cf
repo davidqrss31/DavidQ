@@ -1,0 +1,16 @@
+package Modelo;
+
+public class Jugador {
+	
+	public String nombre, apellidos;
+	public double Handicap;
+	
+	public Jugador (String nombre, String apellidos, double Handicap) {
+		this.nombre = nombre;
+		this.apellidos = apellidos;
+		this.Handicap = Handicap;
+	}
+	
+	public 
+
+}

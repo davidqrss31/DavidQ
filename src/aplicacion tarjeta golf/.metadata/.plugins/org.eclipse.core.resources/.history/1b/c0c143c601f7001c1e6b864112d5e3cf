@@ -1,0 +1,34 @@
+package Modelo;
+
+public class Jugador {
+	
+	public String nombre, apellidos;
+	public double Handicap;
+	
+	public Jugador (String nombre, String apellidos, double Handicap) {
+		this.nombre = nombre;
+		this.apellidos = apellidos;
+		this.Handicap = Handicap;
+	}
+	
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	
+	public String getApellidos() {
+		return apellidos;
+	}
+	public void setApellidos(String apellidos) {
+		this.apellidos = apellidos;
+	}
+	public double getHandicap() {
+		return Handicap;
+	}
+	public void setHandicap(double Handicap) {
+		this.Handicap = Handicap;
+	}
+
+}

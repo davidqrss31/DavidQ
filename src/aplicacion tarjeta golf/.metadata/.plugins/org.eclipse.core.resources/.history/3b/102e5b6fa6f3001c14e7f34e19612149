@@ -1,0 +1,11 @@
+package controlador;
+
+public class PRINCIPAL {
+
+	public static void main(String[] args) {
+		
+		
+		Vista vista = new Vista();
+	}
+
+}

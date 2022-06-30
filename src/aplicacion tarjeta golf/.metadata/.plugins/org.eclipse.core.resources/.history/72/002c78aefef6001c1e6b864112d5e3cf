@@ -1,0 +1,8 @@
+package Modelo;
+
+public class Jugador {
+	
+	public String nombre, apellidos;
+	public Integer Handicap;
+
+}

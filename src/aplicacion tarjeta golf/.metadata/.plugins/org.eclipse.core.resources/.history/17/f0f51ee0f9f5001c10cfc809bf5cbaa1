@@ -1,0 +1,20 @@
+package controlador;
+
+import java.awt.EventQueue;
+
+import Vista.Vista;
+
+public class PRINCIPAL {
+
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+	
+		Vista vista = new Vista();
+		vista.setVisible(true);
+			}
+	});
+		
+	}
+
+}
