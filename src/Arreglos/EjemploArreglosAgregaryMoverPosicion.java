@@ -13,7 +13,7 @@ public class EjemploArreglosAgregaryMoverPosicion {
 		
 		
 		for (int i = 0; i < a.length; i++) {
-			System.out.print("Ingrese el número: ");
+			System.out.print("Ingrese el nÃºmero: ");
 			a[i] = sc.nextInt(); 
 		}
 		System.out.println();
