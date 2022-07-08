@@ -1,4 +1,4 @@
-package Arreglos;
+package ArreglosEjercicios;
 
 /*
  * Escriba un programa que imprima el número más alto de un arreglo de 7 elementos (de rango 11 a 99), 

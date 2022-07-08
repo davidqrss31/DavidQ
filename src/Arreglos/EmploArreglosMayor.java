@@ -10,7 +10,7 @@ public class EmploArreglosMayor {
 		int[] a = new int [5];
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Ingrese 5 números enteros: ");
+		System.out.println("Ingrese 5 nï¿½meros enteros: ");
 		int mayor = a.length;
 		for(int i = 0; i < mayor; i++) {
 			
@@ -23,7 +23,7 @@ public class EmploArreglosMayor {
 			max = (a[max] > a[i])? max: i;
 		}
 		
-		System.out.println("El número mayor es: " + a[max]);
+		System.out.println("El nï¿½mero mayor es: " + a[max]);
 	}
 
 }
